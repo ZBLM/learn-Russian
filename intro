@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apprendre le Russe - Mini E-book</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="images/icon.png" type="image/x-icon">
+</head>
+<body>
+
+    <header>
+        <h1>Bienvenue dans le monde fascinant du russe !</h1>
+        <img src="images/russie.jpg" alt="Paysage de la Russie" class="intro-image">
+    </header>
+
+    <section id="page1">
+        <header>
+            <h2>Introduction</h2>
+        </header>
+        <article>
+            <p>Bonjour et bienvenue dans ce mini e-book, conçu pour vous donner les bases de la langue russe en seulement quelques jours ! Que vous souhaitiez voyager en Russie, découvrir la culture russe ou vous préparer à maîtriser la langue, ce guide est fait pour vous.</p>
+            <p>Je suis [Ton nom], et après avoir appris le russe moi-même, je veux partager avec vous les méthodes qui m'ont aidé à avancer. Ce guide est une première étape pour vous immerger dans cette langue et vous donner envie de continuer.</p>
+        </article>
+    </section>
+
+    <section id="page2">
+        <header>
+            <h2><i class="fas fa-font"></i> Les bases du russe - L'alphabet cyrillique</h2>
+        </header>
+        <article>
+            <p>Le russe utilise l'alphabet cyrillique, qui comporte 33 lettres...</p>
+            <table>
+                <tr><th>Cyrillique</th><th>Transcription</th><th>Prononciation approximative</th></tr>
+                <tr><td>А</td><td>A</td><td>Comme dans "maman"</td></tr>
+                <tr><td>Б</td><td>B</td><td>Comme dans "bête"</td></tr>
+                <tr><td>В</td><td>V</td><td>Comme dans "voiture"</td></tr>
+                <!-- Ajoute les autres lettres ici -->
+            </table>
+        </article>
+    </section>
+
+    <section id="page3">
+        <header>
+            <h2>La prononciation - Astuces pratiques</h2>
+        </header>
+        <article>
+            <p>Quelques sons russes difficiles :</p>
+            <ul>
+                <li><strong>Ш (sh)</strong> : Prononcez-le comme "ch" dans "chat".</li>
+                <li><strong>Ж (zh)</strong> : Il ressemble au son "j" dans "jour", mais avec une vibration plus forte.</li>
+                <li><strong>Ы (y)</strong> : C’est un son particulier, qui n’existe pas en français...</li>
+            </ul>
+        </article>
+    </section>
+
+    <section id="page4">
+        <header>
+            <h2>Expressions et phrases de base</h2>
+        </header>
+        <article>
+            <p>Voici quelques phrases à connaître :</p>
+            <ul>
+                <li><strong>Здравствуйте (Zdravstvuyte)</strong> - Bonjour (formel)</li>
+                <li><strong>Спасибо (Spasibo)</strong> - Merci</li>
+                <li><strong>Как дела ? (Kak dela?)</strong> - Comment ça va ?</li>
+                <li><strong>До свидания (Do svidaniya)</strong> - Au revoir</li>
+            </ul>
+        </article>
+    </section>
+
+    <section id="page5">
+        <header>
+            <h2>Astuces culturelles et linguistiques</h2>
+        </header>
+        <article>
+            <p>Le russe est aussi un moyen de découvrir une culture riche et fascinante...</p>
+        </article>
+    </section>
+
+    <section id="formulaire">
+        <header>
+            <h2>Téléchargez votre e-book gratuit !</h2>
+        </header>
+        <article>
+            <p>Inscrivez-vous ci-dessous pour recevoir votre mini e-book gratuit et commencer à apprendre le russe !</p>
+            <form action="votre_url_backend" method="POST">
+                <label for="prenom">Prénom :</label>
+                <input type="text" id="prenom" name="prenom" required placeholder="Entrez votre prénom">
+                
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email" required placeholder="Entrez votre email">
+                
+                <button type="submit">Téléchargez maintenant</button>
+            </form>
+        </article>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Apprendre le Russe. Tous droits réservés.</p>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</body>
+</html>
